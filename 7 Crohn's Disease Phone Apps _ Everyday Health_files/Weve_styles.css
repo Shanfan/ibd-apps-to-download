@@ -1,0 +1,252 @@
+*{
+	text-size-adjust:100%;
+	-moz-text-size-adjust:100%;
+	-webkit-text-size-adjust:100%;
+	-ms-text-size-adjust:100%;
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+}
+div {
+    font-family: 'Raleway', sans-serif;
+    color:#ffffff;
+    position: absolute;
+    font-weight: 600;
+    white-space: normal;
+    opacity:0;
+    line-height:1;
+}
+pink {
+    color:#cc0066;
+    font-size: 30px;
+    line-height: 32px;
+    font-weight: 500;
+    text-shadow: 1px 0px 1px #333333;
+}
+#cover {
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    width: 300px;
+    height: 250px;
+}
+#hotspot {
+    width: 300px;
+    height: 250px;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+}
+#background {
+    background-image: url(../images/background.jpg);
+	width:300px;
+	height:250px;
+}
+#mainbackground {
+    background-image: url(../images/mainbackground.jpg);
+    width:300px;
+    height:250px;
+}
+
+#one {
+    background-image: url(../images/one.jpg);
+    width:100px;
+    height:117px;
+    bottom:0;
+}
+#two {
+    background-image: url(../images/two.jpg);
+   	width:100px;
+    height:117px;
+    bottom:0;
+    left: 100px;
+}
+#three {
+    background-image: url(../images/three.jpg);
+    width:100px;
+    height:117px;
+   	bottom:0;
+    left: 199px;
+}
+#four {
+    background-image: url(../images/four.jpg);
+    width:100px;
+    height:117px;
+    bottom:0;
+}
+#five {
+    background-image: url(../images/five.jpg);
+    width:100px;
+    height:117px;
+    bottom:0;
+    left: 100px;
+}
+#six {
+    background-image: url(../images/six.jpg);
+    width:100px;
+    height:117px;
+    bottom:0;
+    left: 199px;
+}
+#seven {
+    background-image: url(../images/seven.jpg);
+    width:100px;
+    height:117px;
+    bottom:0;
+}
+#eight {
+    background-image: url(../images/eight.jpg);
+    width:100px;
+    height:117px;
+    bottom:0;
+    left: 100px;
+}
+#nine {
+    background-image: url(../images/nine.jpg);
+    width:100px;
+    height:117px;
+    bottom:0;
+    left: 199px;
+}
+
+#humiralogo {
+    background-image: url(../images/humiralogo.png);
+    width: 112px;
+    height: 59px;
+    left: 4px;
+    top: 73px;
+}
+
+#eyebrow{
+	color: #ffffff;
+    background-color: #a90056;
+    line-height: 1;
+    text-align: left;
+    width: 100%;
+    font-size: 10px;
+    font-weight: 500;
+    height: 13px;
+    padding-left: 8px;
+    padding-top: 4px;
+}
+
+#text1 {
+	line-height: 26px;
+	width: 100%;
+	font-size: 16px;
+	top: 43px;
+	left: 15px;
+	color: #333333;
+}
+#text2,#text3,#text4  {
+	line-height: 26px;
+	font-size: 26px;
+	top: 72px;
+	left: 15px;
+	color: #a90056;
+}
+#text3 {
+	left: 105px;
+}
+#text4 {
+	left: 168px;
+}
+#text5,#text6,#text7 {
+	line-height: 26px;
+	font-size: 26px;
+	top: 72px;
+	left: 15px;
+	color: #a90056;
+}
+#text6 {
+	left: 105px;
+}
+#text7 {
+	left: 168px;
+}
+
+#text8,#text9,#text10 {
+	line-height: 26px;
+	font-size: 26px;
+	top: 72px;
+	left: 15px;
+	color: #a90056;
+}
+#text9 {
+	left: 106px;
+}
+#text10 {
+	left: 185px;
+}
+#text11 {
+	line-height: 27px;
+    width: 100%;
+    font-size: 16px;
+    top: 21px;
+    left: 15px;
+    color: #424242;
+    font-weight: 500;
+}
+
+#text12,#text13,#text14 {
+	line-height: 26px;
+	font-size: 24px;
+	top: 46px;
+	left: 15px;
+	color: #a90056;
+}
+#text13 {
+	left: 108px;
+}
+#text14 {
+	left: 166px;
+}
+
+#text15 {
+	line-height: 13px;
+	width: 262px;
+	font-size: 10px;
+	top: 140px;
+	left: 15px;
+	color: #424242;
+}
+
+#text16 {
+	line-height: 24px;
+	font-size: 21px;
+	top: 7px;
+	left: 14px;
+	color: #a90056;
+}
+#text17 {
+	color: #ffffff;
+	font-size: 15px;
+	top: 77px;
+	left: -70px;
+	font-weight: 400;
+}
+
+#arrows {
+    color: #ffffff;
+    font-size: 13px;
+    top: 77px;
+    font-weight: 400;
+    left:-10px;
+}
+
+#cta {
+    width: 157px;
+    height: 33px;
+    background: #a90056;
+    top: 68px;
+    left: -300px;
+}
+
+#replay {
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+}

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<!-- saved from url=(0126)https://s0.2mdn.net/4169376/1490280530450/AllType_Quiz_0vrNA_728x90_ST_HCD_BRD_v2/AllType_Quiz_0vrNA_728x90_ST_HCD_BRD_v2.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>intouch_doubleclick_multiple_with_isi</title>
+    <script src="./Enabler.js"> </script>
+
+	<script src="./intouch_doubleclick_multiple_with_isi.js"></script>
+	<!--CDN links for the latest TweenMax-->
+    <script src="./EasePack.min.js"></script>
+    <script src="./CSSPlugin.min.js"></script>
+    <script src="./ScrollToPlugin.min.js"></script>
+    <script src="./TweenMax.min.js"></script>
+    <!--CUSTOM-->
+    <link href="./alltype.css" rel="stylesheet">
+    <!--fonts-->
+    <link href="./css(2)" rel="stylesheet" type="text/css">
+    <!--isi-->
+    <script src="./humira_gastro_ISI_2015_4_28.js"></script>
+    <!--animation-->
+    <script src="./alltype.js"> </script>
+
+    <script type="text/javascript">
+        var clickTag = "https://www.humira.com/crohns/symptoms-of-crohns";
+        var clickTag_PI="http://www.rxabbvie.com/pdf/humira.pdf";
+        var clickTag_Mg="http://www.rxabbvie.com/pdf/humira_medguide.pdf";
+        var clickTag_Medwatch="http://www.fda.gov/medwatch";
+        var clickTag_Pparx="https://www.pparx.org";
+    </script>
+
+<script type="text/javascript">
+    
+      (function() {
+        var relegateNavigation = '';
+        var handleClickTagMessage = function(e) {
+          try {
+            var eventData = JSON.parse(e.data);
+          } catch (err) {
+            return;
+          }
+          if (eventData.isInitClickTag) {
+            if (eventData.clickTags) {
+              for (var i = 0; i < eventData.clickTags.length; i++) {
+                var clkTag = eventData.clickTags[i];
+                window[clkTag.name] = clkTag.url;
+              }
+            } else if (eventData.clickTag) {
+              window.clickTag = eventData.clickTag;
+            }
+            relegateNavigation = eventData.relegateNavigation;
+          }
+        };
+
+        if (open.call) {
+          window.open = function(open) {
+            return function(url, name, features) {
+              if (relegateNavigation === 'parent') {
+                var message = {'clickTag': url, 'isPostClickTag': true};
+                parent.postMessage(JSON.stringify(message), '*');
+              } else {
+                var args = [url, name];
+                if (features) {
+                  args.push(features);
+                }
+                open.apply(window, args);
+              }
+            };
+          }(window.open);
+        }
+
+        if (window.addEventListener) {
+          window.addEventListener(
+              'message', handleClickTagMessage, false);
+        } else {
+          window.attachEvent('onmessage', handleClickTagMessage);
+        }
+      })();
+    
+  </script></head>
+
+<body id="dim728x90" style="zoom: 1;">
+    <div id="cover" style="opacity: 1;">
+
+
+        <div id="background" style="opacity: 1;"></div>
+
+        <div id="bottom" style="opacity: 0;"></div>
+        <div id="top_text" style="opacity: 0; top: 3px; left: 73px;">Moderate to Severe Crohn's Disease</div>
+
+        <div id="swirling_text" style="opacity: 0; transform: matrix3d(-0.818511, 0.574491, 0, 0, -0.574491, -0.818511, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);"></div>
+
+        <div id="text1" style="opacity: 0;">Crohn's symptoms</div>
+        <div id="text2" style="opacity: 0;">If you're living with moderate <br> to severe Crohn's,</div>
+        <div id="text3" style="opacity: 0;">it may feel like your life revolves <br> around your symptoms.</div>
+        <div id="text4" style="opacity: 0;">Learn about a treatment option <br> that helps reduce Crohn's symptoms.</div>
+        <div id="text5" style="opacity: 0;">HUMIRA is a prescription medicine used to reduce signs and  symptoms, <br> and to achieve and maintain clinical remission in adults with moderate to <br> severe  Crohn's disease who have not responded well to certain other <br> medications.</div>
+        <div id="text6" style="opacity: 1;">How are Crohn's symptoms affecting you?</div>
+
+<div id="ctaPI" style="opacity: 1; top: 78px;"><a href="javascript:foo()" id="ctaPI" class="isiHeaderLink">Full Prescribing Information &gt;</a></div><div id="ctaMG" style="opacity: 1; top: 78px;"><a href="javascript:foo()" id="ctaMG" class="isiHeaderLink">Medication Guide &gt;</a></div>
+
+
+        <div id="logo" style="opacity: 1;"></div>
+        <div id="logobig" style="opacity: 0;"></div>
+        <div id="number" style="opacity: 0;">64Z-1552007</div>
+
+
+        <div id="cta" style="opacity: 1;"><div id="ctaText" style="opacity: 1;">Take the Assessment</div></div>
+        <div id="hotspot" style="opacity: 0;"></div>
+
+        <div id="isi" style="opacity: 1; top: 0px;"><div id="isiHeader" style="opacity: 1;"><div id="isiHead" style="opacity: 1;">Important Safety Information About HUMIRA<sup>®</sup> (adalimumab)<sup>1</sup></div></div><div id="isiTextHolder" style="opacity: 1;"><div id="isiText" style=""><style>div { opacity:1;} p {font-family:Arial, Helvetica, sans-serif; font-size:11px; color:#000000; line-height:12px; margin-left:3px; }.header {  color:#000000; font-size:13px; font-weight:bold;line-height:12px;  }.subheader {  color:#b60962; font-size:11px; font-weight:bold; }sup {  font-size:9px;     line-height: 7px; }.stop { color:#00AEEF; font-weight:bold; }b  { font-weight:bold; }a.isi:link, a.isi.visited  {color:#C6296E; text-decoration:underline; font-weight:bold; }a.isi:hover  { color:#000000; text-decoration:none; }ul {  padding-left: 15px; margin: 0px; }#blackbox {border: 1px solid #000000; padding: 3px;}</style><span class="subheader">What is the most important information I should know about HUMIRA?</span><p></p>You should discuss the potential benefits and risks of HUMIRA with your doctor. HUMIRA is a TNF blocker medicine that can lower the ability of your immune system to fight infections. You should not start taking HUMIRA if you have any kind of infection unless your doctor says it is okay.<p></p><ul><li><strong>Serious infections have happened in people taking HUMIRA. These serious infections include tuberculosis (TB) and infections caused by viruses, fungi, or bacteria that have spread throughout the body. Some people have died from these infections. </strong> Your doctor should test you for TB before starting HUMIRA, and check you closely for signs and symptoms of TB during treatment with HUMIRA. If your doctor feels you are at risk, you may be treated with medicine for TB.</li><li><strong>Cancer.</strong> For children and adults taking TNF blockers, including HUMIRA, the chance of getting lymphoma or other cancers may increase. There have been cases of unusual cancers in children, teenagers, and young adults using TNF blockers. Some people have developed a rare type of cancer called hepatosplenic T-cell lymphoma. This type of cancer often results in death. If using TNF blockers including HUMIRA, your chance of getting two types of skin cancer (basal cell and squamous cell) may increase. These types are generally not life-threatening if treated; tell your doctor if you have a bump or open sore that doesn't heal.</li></ul><p></p><span class="stop">Scroll down for more Important Safety Information.</span><p id="stop" class="stop"><p></p><p></p></p><p></p><p></p><p></p><span class="subheader">What should I tell my doctor BEFORE starting HUMIRA?</span><p></p><p></p><strong>Tell your doctor about all of your health conditions,</strong> including if you:<p></p><ul><li>Have an infection, are being treated for infection, or have symptoms of an infection</li><li>Get a lot of infections or infections that keep coming back</li><li>Have diabetes</li><li>Have TB or have been in close contact with someone with TB, or were born in, lived in, or traveled where there is more risk for getting TB</li><li>Live or have lived in an area (such as the Ohio and Mississippi River valleys) where there is an increased risk for getting certain kinds of fungal infections, such as histoplasmosis, coccidioidomycosis, or blastomycosis</li><li>Have or have had hepatitis B</li><li>Are scheduled for major surgery</li><li>Have or have had cancer</li><li>Have numbness or tingling or a nervous system disease such as multiple sclerosis or Guillain-Barré syndrome</li><li>Have or had heart failure</li><li>Have recently received or are scheduled to receive a vaccine. HUMIRA patients may receive vaccines, except for live vaccines</li><li>Are allergic to rubber, latex, or any HUMIRA ingredients</li><li>Are pregnant, planning to become pregnant, breastfeeding, or planning to breastfeed</li><li>Have a baby and you were using HUMIRA during your pregnancy. Tell your baby's doctor before your baby receives any vaccines</li></ul><p></p><p></p><strong>Also tell your doctor about all the medicines you take.</strong> You should not take HUMIRA with ORENCIA<sup>®</sup> (abatacept), KINERET<sup>®</sup> (anakinra), REMICADE<sup>®</sup> (infliximab), ENBREL<sup>®</sup> (etanercept), CIMZIA<sup>®</sup> (certolizumab pegol), or SIMPONI<sup>®</sup> (golimumab). Tell your doctor if you have ever used RITUXAN<sup>®</sup> (rituximab), IMURAN<sup>®</sup> (azathioprine), or PURINETHOL<sup>®</sup> (mercaptopurine, 6-MP).<p></p><p></p><span class="subheader">What should I watch for AFTER starting HUMIRA?</span><p></p><p></p><b>HUMIRA can cause serious side effects,</b> including:<ul><li><b>Serious infections.</b> These include TB and infections caused by viruses, fungi, or bacteria. Symptoms related to TB include a cough, low-grade fever, weight loss, or loss of body fat and muscle.</li><li><b>Hepatitis B infection in carriers of the virus.</b> Symptoms include muscle aches, feeling very tired, dark urine, skin or eyes that look yellow, little or no appetite, vomiting, clay-colored bowel movements, fever, chills, stomach discomfort, and skin rash.</li><li><b>Allergic reactions.</b> Symptoms of a serious allergic reaction include hives, trouble breathing, and swelling of your face, eyes, lips, or mouth.</li><li><b>Nervous system problems.</b> Signs and symptoms include numbness or tingling, problems with your vision, weakness in your arms or legs, and dizziness.</li><li><b>Blood problems.</b> Symptoms include a fever that does not go away, bruising or bleeding very easily, or looking very pale.</li><li><b>Heart failure</b> (new or worsening). Symptoms include shortness of breath, swelling of your ankles or feet, and sudden weight gain.</li><li><b>Immune reactions including a lupus-like syndrome.</b> Symptoms include chest discomfort or pain that does not go away, shortness of breath, joint pain, or rash on your cheeks or arms that gets worse in the sun.</li><li><b>Liver problems.</b> Symptoms include feeling very tired, skin or eyes that look yellow, poor appetite or vomiting, and pain on the right side of your stomach (abdomen).</li><li><b>Psoriasis</b> (new or worsening). Symptoms include red scaly patches or raised bumps that are filled with pus.</li></ul><p></p><p></p><b>Call your doctor or get medical care right away if you develop any of the above symptoms.</b><p></p><p></p><b>Common side effects of HUMIRA include injection site reactions</b> (redness, rash, swelling, itching, or bruising), <b>upper respiratory infections</b> (sinus infections), <b>headaches, rash,</b> and <b>nausea.</b> These are not all of the possible side effects with HUMIRA. Tell your doctor if you have any side effect that bothers you or that does not go away.<p></p><p></p><span class="subheader">Remember, tell your doctor right away if you have an infection or symptoms of an infection, including:</span><p></p><ul><li>Fever, sweats, or chills</li><li>Muscle aches</li><li>Cough</li><li>Shortness of breath</li><li>Blood in phlegm</li><li>Weight loss</li><li>Warm, red, or painful skin or sores on your body</li><li>Diarrhea or stomach pain</li><li>Burning when you urinate</li><li>Urinating more often than normal</li><li>Feeling very tired</li></ul><p></p><p></p><b>HUMIRA is given by injection under the skin.</b><p></p><p></p><span class="subheader">This is the most important information to know about HUMIRA. For more information, talk to your health care provider.</span><p></p><p></p><span class="subheader">HUMIRA Use</span><p></p><p></p>HUMIRA is a prescription medicine used to reduce signs and symptoms, and to achieve and maintain clinical remission in adults with moderate to severe Crohn's disease who have not responded well to certain other medications. HUMIRA is also used to reduce signs and symptoms and achieve clinical remission in these adults who have also lost response to or are unable to tolerate infliximab.<p></p><p></p><b>You are encouraged to report negative side effects of prescription drugs to the FDA. Visit <a href="javascript:foo()" id="medwatch" class="isi">www.fda.gov/medwatch</a>, or call 1-800-FDA-1088.</b><p></p><p></p><b>If you cannot afford your medication, visit <a href="javascript:foo()" id="pparx" class="isi">www.pparx.org</a> for assistance.</b><p></p><p></p><b>Reference: 1.</b> HUMIRA Injection [package insert]. North Chicago, IL: AbbVie Inc.<p></p><p></p>64Z-1864622<p></p></div></div></div>
+
+
+        <div id="refresh" style="opacity: 1; top: 67px;"></div>
+
+
+        <div id="border" style="opacity: 1;"><div style="border-left:1px solid #000000; opacity: 1 !important; width: 0px; height: 90px; top: 0px; left: 0px; z-index:1000;"></div><div style="border-right:1px solid #000000; opacity: 1 !important;  width: 0px; height: 90px; top: 0px; left: 727px; z-index:1001;"></div><div style="border-top:1px solid #000000; opacity: 1 !important; width: 728px; height: 0px; top: 0px; left: 0px; z-index:1002;"></div><div style="border-bottom:1px solid #000000; opacity: 1 !important;  width: 728px; height: 0px; top: 89px; left: 0px; z-index:1003;"></div></div>
+    </div>
+
+
+</body></html>

@@ -1,0 +1,89 @@
+div {
+    font-family: 'Arimo', sans-serif;
+    position: absolute;
+    font-weight: 700;
+    white-space: normal;
+    opacity:0;
+    line-height:1;
+}
+#cover {
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    width: 728px;
+    height: 90px;
+}
+#hotspot {
+    width: 728px;
+    height: 90px;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+}
+#background {
+    background-image: url(../images/background.jpg);
+    width: 388px;
+    height:90px;
+}
+#background2 {
+    background-image: url(../images/background.jpg);
+    width: 728px;
+    height:90px;
+}
+#eyebrow {
+    background-image: url(../images/eyebrow.png);
+    width: 276px;
+    height: 25px;
+}
+#cta {
+    background-image: url(../images/cta.png);
+    width: 112px;
+    height: 32px;
+    top: 58px;
+    left: 151px;
+}
+#domore {
+    background-image: url(../images/domore.png);
+    width: 290px;
+    height: 58px;
+    left:0px;
+}
+#indication {
+    background-image: url(../images/indication.png);
+    width: 393px;
+    height:109px;
+    top: 0;
+    left: 339px;
+}
+#logo {
+    background-image: url(../images/logo.png);
+    width: 118px;
+    height:90px;
+    top:0px;
+}
+#remission {
+    background-image: url(../images/remission.png);
+    width: 112px;
+    height: 90px;
+    left: 155px;
+}
+#areyou {
+    background-image: url(../images/areyou.png);
+    width: 289px;
+    height: 90px;
+    left:0px;
+}
+#despite {
+    background-image: url(../images/despite.png);
+    width: 289px;
+    height: 90px;
+    left:0px;
+}
+
+#video1 {
+   position: absolute;
+   width: 728px;
+   height: 90px;
+   top: -82px;
+}
+
